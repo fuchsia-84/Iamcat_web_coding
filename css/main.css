@@ -200,3 +200,55 @@
     margin:  98px auto;
 }
 
+/* cat 3 */
+#cat_3 {
+    width: 100%;
+    background: #ffffff;
+}
+#cat_3 .cat_3_content {
+    display: block;
+    width: 100%;
+    border-top: 2px solid #777777;
+    margin-top: 100px;
+}
+#cat_3 .cat_3_content dl {
+    display: block;
+    max-width: 980px;
+    border-bottom: 2px solid #777777;
+    padding: 0 24px;
+    letter-spacing: -1em;
+    white-space: nowrap;
+    color: #333333;
+}
+#cat_3 .cat_3_content dt {
+    display: inline-block;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 40px;
+    vertical-align: top;
+    letter-spacing: normal;
+    white-space: normal;
+}
+#cat_3 .cat_3_content dt:after {
+    content: "新着";
+    color: #AD2727;
+    font-size: 16px;
+    line-height: 25px;
+    text-align: center;
+    display: inline-block;
+    width: 84px;
+    height: 25px;
+    padding: 0;
+    margin-left: 14px;
+    margin-right: 37px;
+    vertical-align: middle;
+    border: 1px solid #AD2727;
+}
+#cat_3 .cat_3_content dd {
+    display: inline-block;
+    font-size: 16px;
+    line-height: 40px;
+    letter-spacing: normal;
+    white-space: normal;  
+}
+
