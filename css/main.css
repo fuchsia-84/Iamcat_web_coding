@@ -1,2 +1,78 @@
 @charset "utf-8";
 @import url(../css/html5reset-1.6.1.css); /*reset css*/
+
+.inner {
+    width: 100%;
+    margin: auto;
+}
+.inner:after {
+    content: "";
+    clear: both;
+    display: block;
+}
+.body {
+    background: #ffffff;
+    font-family:"游ゴシック Medium",YuGothic,YuGothicM,"Hiragino Kaku Gothic ProN","Hiragino Kaku Gothic Pro",メイリオ,Meiryo,sans-serif;
+    font-weight: 400;
+}
+/* header */
+#header {
+    width: 100%;
+    height: 75px;
+    position: fixed;
+    z-index: 900;
+    background: #ffffff;
+}
+#header .header_logo {
+    width: 49px;
+    height: auto;
+    position: absolute;
+    top: 25px;
+    left: 250px;
+    z-index: 901
+}
+#global_nav {
+    position: relative;
+}
+#global_nav ul {
+    list-style: none;
+    position: absolute;
+    top: 27px;
+    right: 250px;
+    z-index: 902;
+}
+#global_nav li {
+    float: left;
+    padding: 0 24px;
+    color: #333333
+}
+#global_nav li a {
+    text-decoration: none;
+    color: #333333
+}
+/* top */
+#top {
+    width: 100%;
+    height: 911px;
+    background: url(../img/header.png);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    z-index: 1;
+}
+.top_logo {
+    width: 292px;
+    height: auto;
+    position: absolute;
+    top: 346px;
+    left: calc((100% - 292px)*0.5);
+    z-index: 2;
+}
+#about .inner {
+    width: 100%;
+    padding: 100px 250px;
+}
+#about h1 {
+    font-weight: bold;
+}
+
