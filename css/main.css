@@ -50,6 +50,12 @@
     text-decoration: none;
     color: #333333
 }
+/* container */
+.container {
+    display: block;
+    width: 980px;
+    margin: 0 auto;
+}
 /* top */
 #top {
     width: 100%;
@@ -70,7 +76,7 @@
 }
 #about .inner {
     width: 100%;
-    padding: 100px 250px;
+    padding: 100px 0;
 }
 #about h1 {
     font-weight: bold;
