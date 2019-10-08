@@ -142,3 +142,34 @@
 #cat_1 .cat_1_content div:nth-child(even) p {
     float: left;
 }
+
+/* cat 2 */
+#cat_2 {
+    width: 100%;
+    background: #ffffff;
+}
+#cat_2 .cat_2_content {
+    display: block;
+    width: 100%;
+}
+#cat_2 .cat_2_content div {
+    display: block;
+    width: 450px;
+    margin-top: 100px;
+}
+#cat_2 .cat_2_content div:nth-child(1) {
+    float: left;
+}
+#cat_2 .cat_2_content div:nth-child(2) {
+    float: right;
+}
+#cat_2 .cat_2_content div img{
+    display: block;
+    width: 100%;
+    margin-bottom: 50px;
+}
+#cat_2 .cat_2_content div p {
+    font-size: 20px;
+    line-height: 30px;
+}
+
