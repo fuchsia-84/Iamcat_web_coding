@@ -70,18 +70,11 @@
     z-index: 2;
 }
 
-/* container */
-.container {
-    display: block;
-    width: 980px;
-    margin: 0 auto;
-}
-
 /*about and cat_1 - 3 inner */
 #about .inner, #cat_1 .inner, #cat_2 .inner, #graphic .inner, #cat_3 .inner, #under .inner{
     width: 980px;
 }
-#about .inner, #cat_1 .inner, #cat_2 .inner, #cat_3 .inner{
+#about .inner, #cat_1 .inner, #cat_2 .inner, #cat_3 .inner, #under .inner{
     padding: 100px 0;
 }
 
@@ -250,5 +243,51 @@
     line-height: 40px;
     letter-spacing: normal;
     white-space: normal;  
+}
+
+/* under */
+#under {
+    width: 100%;
+    background: #8E8E8E;
+}
+#under .under_content {
+    display: block;
+    width: 1010px;
+    margin: 0 auto;
+}
+#under .under_content div {
+    display: inline-block;
+    width: 300px;
+    margin-right: 55px;
+    color: #ffffff;
+    letter-spacing: -1em;
+    white-space: nowrap;
+}
+#under .under_content div h1 {
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 40px;
+    border-bottom: 1px solid #ffffff;
+    letter-spacing: normal;
+    white-space: normal;  
+}
+#under .under_content .under_last{
+    width: 270px;
+    margin-right: 0;
+}
+#under .under_content div ul {
+    list-style: none;
+    margin-top: 29px;
+    letter-spacing: normal;
+    white-space: normal;  
+}
+#under .under_content div ul li {
+    font-size: 16px;
+    line-height: 27px;
+    letter-spacing: normal;
+    white-space: normal;  
+}
+#under .under_content div ul li:before {
+    content: "・";
 }
 
