@@ -50,12 +50,7 @@
     text-decoration: none;
     color: #333333
 }
-/* container */
-.container {
-    display: block;
-    width: 980px;
-    margin: 0 auto;
-}
+
 /* top */
 #top {
     width: 100%;
@@ -74,10 +69,21 @@
     left: calc((100% - 292px)*0.5);
     z-index: 2;
 }
-#about .inner {
+
+/* container */
+.container {
+    display: block;
+    width: 980px;
+    margin: 0 auto;
+}
+
+/*about and cat_1 - 3 inner */
+#about .inner, #cat_1 .inner, #cat_2 .inner, #cat_3 .inner{
     width: 100%;
     padding: 100px 0;
 }
+
+/* about */
 #about h1 {
     font-weight: bold;
     font-size: 40px;
